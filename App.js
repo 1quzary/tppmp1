@@ -6,6 +6,7 @@ import HomeScreen from './screens/HomeScreen'
 import FirstScreen from './screens/FirstScreen'
 import SecondScreen from './screens/SecondScreen'
 import ThirdScreen from './screens/ThirdScreen'
+import FourthScreen from './screens/FourthScreen'
 
 const Stack = createNativeStackNavigator()
 
@@ -32,6 +33,11 @@ export default function App() {
 					name='Third'
 					component={ThirdScreen}
 					options={{ title: 'Завдання 3' }}
+				/>
+				<Stack.Screen
+					name='Fourth'
+					component={FourthScreen}
+					options={{ title: 'Завдання 4' }}
 				/>
 			</Stack.Navigator>
 		</NavigationContainer>

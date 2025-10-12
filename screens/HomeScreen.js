@@ -24,6 +24,13 @@ export default function HomeScreen({ navigation }) {
 			>
 				<Text style={styles.buttonText}>Завдання 3</Text>
 			</TouchableOpacity>
+
+			<TouchableOpacity
+				style={styles.customButton}
+				onPress={() => navigation.navigate('Fourth')}
+			>
+				<Text style={styles.buttonText}>Завдання 4</Text>
+			</TouchableOpacity>
 		</View>
 	)
 }

@@ -28,16 +28,16 @@ export default function SecondScreen() {
 	// float (32bit)
 	const floatNumber = 10235.34
 
-	// 7. Символ “а”
+	// 7. Символ 'а'
 	const charA = 'a'
 
-	// 8. Рядок “Hello World”
+	// 8. Рядок 'Hello World'
 	const stringHello = 'Hello World'
 
 	// 9. Істина
 	const boolTrue = true
 
-	// 10. Число 12 та його рядкове представлення “twelve”
+	// 10. Число 12 та його рядкове представлення 'twelve'
 	const number12 = 12
 	const stringTwelve = 'twelve'
 
