@@ -5,10 +5,6 @@ export default function FirstScreen({ navigation }) {
 	return (
 		<View style={styles.container}>
 			<Text style={styles.title}>Hello World!</Text>
-			<Button
-				title='Завдання 2'
-				onPress={() => navigation.navigate('Second')}
-			/>
 		</View>
 	)
 }
