@@ -24,6 +24,27 @@ export default function HomeScreen({ navigation }) {
 			>
 				<Text style={styles.buttonText}>Завдання 3</Text>
 			</TouchableOpacity>
+
+			<TouchableOpacity
+				style={styles.customButton}
+				onPress={() => navigation.navigate('Fourth')}
+			>
+				<Text style={styles.buttonText}>Завдання 4</Text>
+			</TouchableOpacity>
+
+			<TouchableOpacity
+				style={styles.customButton}
+				onPress={() => navigation.navigate('Fifth')}
+			>
+				<Text style={styles.buttonText}>Завдання 5</Text>
+			</TouchableOpacity>
+
+			<TouchableOpacity
+				style={styles.customButton}
+				onPress={() => navigation.navigate('Sixth')}
+			>
+				<Text style={styles.buttonText}>Завдання 6</Text>
+			</TouchableOpacity>
 		</View>
 	)
 }

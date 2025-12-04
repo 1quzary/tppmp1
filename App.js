@@ -7,6 +7,8 @@ import FirstScreen from './screens/FirstScreen'
 import SecondScreen from './screens/SecondScreen'
 import ThirdScreen from './screens/ThirdScreen'
 import FourthScreen from './screens/FourthScreen'
+import FifthScreen from './screens/FifthScreen'
+import SixthScreen from './screens/SixthScreen'
 
 const Stack = createNativeStackNavigator()
 
@@ -38,6 +40,16 @@ export default function App() {
 					name='Fourth'
 					component={FourthScreen}
 					options={{ title: 'Завдання 4' }}
+				/>
+				<Stack.Screen
+					name='Fifth'
+					component={FifthScreen}
+					options={{ title: 'Завдання 5' }}
+				/>
+				<Stack.Screen
+					name='Sixth'
+					component={SixthScreen}
+					options={{ title: 'Завдання 6' }}
 				/>
 			</Stack.Navigator>
 		</NavigationContainer>
