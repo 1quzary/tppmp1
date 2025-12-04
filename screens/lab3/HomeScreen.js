@@ -4,61 +4,6 @@ import { TouchableOpacity, Text, StyleSheet, View } from 'react-native'
 export default function HomeScreen({ navigation }) {
 	return (
 		<View style={styles.wrapper}>
-			{/*Лабораторна 1*/}
-			{/*
-			<TouchableOpacity
-				style={styles.customButton}
-				onPress={() => navigation.navigate('First')}
-			>
-				<Text style={styles.buttonText}>Завдання 1</Text>
-			</TouchableOpacity>
-
-			<TouchableOpacity
-				style={styles.customButton}
-				onPress={() => navigation.navigate('Second')}
-			>
-				<Text style={styles.buttonText}>Завдання 2</Text>
-			</TouchableOpacity>
-
-			<TouchableOpacity
-				style={styles.customButton}
-				onPress={() => navigation.navigate('Third')}
-			>
-				<Text style={styles.buttonText}>Завдання 3</Text>
-			</TouchableOpacity>
-
-			<TouchableOpacity
-				style={styles.customButton}
-				onPress={() => navigation.navigate('Fourth')}
-			>
-				<Text style={styles.buttonText}>Завдання 4</Text>
-			</TouchableOpacity>
-			*/}
-
-			{/*Лабораторна 2*/}
-			<TouchableOpacity
-				style={styles.customButton}
-				onPress={() => navigation.navigate('First')}
-			>
-				<Text style={styles.buttonText}>Завдання 1</Text>
-			</TouchableOpacity>
-
-			<TouchableOpacity
-				style={styles.customButton}
-				onPress={() => navigation.navigate('Second')}
-			>
-				<Text style={styles.buttonText}>Завдання 2</Text>
-			</TouchableOpacity>
-
-			<TouchableOpacity
-				style={styles.customButton}
-				onPress={() => navigation.navigate('Third')}
-			>
-				<Text style={styles.buttonText}>Завдання 3</Text>
-			</TouchableOpacity>
-
-			{/*Лабораторна 3*/}
-			{/*
 			<TouchableOpacity
 				style={styles.customButton}
 				onPress={() => navigation.navigate('First')}
@@ -100,7 +45,6 @@ export default function HomeScreen({ navigation }) {
 			>
 				<Text style={styles.buttonText}>Завдання 6</Text>
 			</TouchableOpacity>
-			*/}
 		</View>
 	)
 }
