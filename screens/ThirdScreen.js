@@ -1,6 +1,11 @@
 import React from 'react'
 import { View, Text, StyleSheet, ScrollView } from 'react-native'
 
+{
+	/*Лабораторна 1*/
+}
+{
+	/*
 export default function ThirdScreen() {
 	const originalString = 'Hello World. This is Swift programming language'
 
@@ -120,3 +125,23 @@ const styles = StyleSheet.create({
 		marginBottom: 8,
 	},
 })
+	*/
+}
+
+{
+	/*Лабораторна 2*/
+}
+export default function ThirdScreen() {}
+
+const styles = StyleSheet.create({})
+
+{
+	/*Лабораторна 3*/
+}
+{
+	/*
+export default function ThirdScreen() {}
+
+const styles = StyleSheet.create({})
+	*/
+}

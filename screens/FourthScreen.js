@@ -1,6 +1,11 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
+{
+	/*Лабораторна 1*/
+}
+{
+	/*
 export default function FourthScreen() {
 	let integerNumber // undefined
 
@@ -74,3 +79,12 @@ const styles = StyleSheet.create({
 		textAlign: 'left',
 	},
 })
+	*/
+}
+
+{
+	/*Лабораторна 3*/
+}
+export default function FourthScreen() {}
+
+const styles = StyleSheet.create({})

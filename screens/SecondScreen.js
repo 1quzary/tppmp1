@@ -1,27 +1,32 @@
 import React from 'react'
 import { View, Text, StyleSheet, ScrollView } from 'react-native'
 
-export default function SecondScreen() {
+{
+	/*Лабораторна 1*/
+}
+{
+	/*
+xport default function SecondScreen() {
 	// 1. Ціле десяткове число 12 з мінімально необхідною розрядною сіткою
-	// 12 у двійковій = 1100 потрібно 4 біти
+	// 12 = 1100 (4 біт)
 	const decimal12 = 12
 	const decimal12Bits = 4
 
 	// 2. Ціле десяткове число -100 з мінімально необхідною розрядною сіткою
-	// 100 у двійковій = 1100100 (7 біт), для від’ємного потрібно врахувати знак - 8 біт
+	// 100 = 1100100 (7 біт), від’ємний знак - 8 біт
 	const decimalMinus100 = -100
 	const decimalMinus100Bits = 8
 
 	// 3. Ціле шістнадцяткове число, що дорівнює 128 (десяткове)
-	// 128 у шістнадцятковій = 0x80
-	const hex128 = 0x80 // або '0x80' як текст
+	// 128 = 0x80
+	const hex128 = 0x80
 
 	// 4. Мінімальне десяткове значення числа у межах 16-бітної сітки
-	// Signed: від -32768 до 32767
+	// від -32768 до 32767
 	const min16bit = -32768
 
 	// 5. Максимальне десяткове значення числа у межах 64-бітної сітки
-	// Signed: 2^63 - 1
+	//  2^63 - 1
 	const max64bit = BigInt('9223372036854775807')
 
 	// 6. Число з плаваючою крапкою 10 235.34 з мінімально необхідною розрядною сіткою
@@ -103,3 +108,23 @@ const styles = StyleSheet.create({
 		marginBottom: 8,
 	},
 })
+	 */
+}
+
+{
+	/*Лабораторна 2*/
+}
+export default function SecondScreen() {}
+
+const styles = StyleSheet.create({})
+
+{
+	/*Лабораторна 3*/
+}
+{
+	/*
+export default function SecondScreen() {}
+
+const styles = StyleSheet.create({})
+	*/
+}
